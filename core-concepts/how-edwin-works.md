@@ -1,5 +1,5 @@
 ---
-icon: pen-to-square
+icon: 🦉
 ---
 
 # 🦉 How Edwin Works
@@ -10,14 +10,28 @@ Edwin is a TypeScript library that serves as the bridge between AI agents and De
 
 ```mermaid
 graph TB
+    %% Styling
+    classDef default fill:#f9f9f9,stroke:#333,stroke-width:2px
+    classDef highlight fill:#e1f5fe,stroke:#01579b,stroke-width:2px
+    classDef core fill:#e8f5e9,stroke:#2e7d32,stroke-width:2px
+    classDef security fill:#ffebee,stroke:#c62828,stroke-width:2px
+
     subgraph "AI Layer"
-        A[AI Agent] --> B[Framework Adapter]
+        A[AI Agent]
+        P[Edwin Plugin]
+        A --> P
     end
     
-    subgraph "Edwin Core"
-        B --> C[Protocol Abstraction Layer]
-        C --> D[Protocol Type Interfaces]
-        D --> E[Provider System]
+    subgraph "Edwin"
+        B[Framework Adapter]
+        C[Protocol Abstraction Layer]
+        D[Protocol Type Interfaces]
+        E[Provider System]
+        
+        P --> B
+        B --> C
+        C --> D
+        D --> E
         
         subgraph "Security Layer"
             F[Transaction Validation]
@@ -27,14 +41,23 @@ graph TB
     end
     
     subgraph "Protocol Layer"
-        E --> I[Protocol SDKs]
-        I --> J[DeFi Protocols]
+        I[Protocol SDKs]
+        J[DeFi Protocols]
+        
+        E --> I
+        I --> J
     end
     
+    %% Security connections
     C -.-> F
     F -.-> E
     G -.-> E
     H -.-> E
+
+    %% Apply styles
+    class A,P highlight
+    class B,C,D,E core
+    class F,G,H security
 ```
 
 ## Core Components
@@ -105,7 +128,7 @@ Protocols can integrate with Edwin through:
 
 ## Technical Implementation
 
-Edwin is built with TypeScript, offeri  ng:
+Edwin is built with TypeScript, offering:
 - Modern development experience
 - Easy integration with existing TypeScript/JavaScript projects
 - Comprehensive type definitions for all interfaces

@@ -9,11 +9,11 @@
 
 ## Core Concepts
 
-* [🦉 How Edwin Works](core-concepts/editor.md)
-* [Security Model & Transaction Handling](core-concepts/markdown.md)
-* [Protocol Abstraction Layer](core-concepts/images-and-media.md)
-* [AI Framework Adapters](core-concepts/interactive-blocks.md)
-* [Command & Action System](core-concepts/openapi.md)
+* [🦉 How Edwin Works](core-concepts/how-edwin-works.md)
+* [Security Model & Transaction Handling](core-concepts/security-model.md)
+* [Protocol Abstraction Layer](core-concepts/protocol-abstraction.md)
+* [AI Framework Adapters](core-concepts/framework-adapters.md)
+* [Command & Action System](core-concepts/action-system.md)
 
 ## Guides
 
