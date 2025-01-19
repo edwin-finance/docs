@@ -25,13 +25,9 @@ graph TB
     subgraph "Edwin"
         B[Framework Adapter]
         C[Protocol Abstraction Layer]
-        D[Protocol Type Interfaces]
-        E[Provider System]
         
         P --> B
         B --> C
-        C --> D
-        D --> E
         
         subgraph "Security Layer"
             F[Transaction Validation]
@@ -44,19 +40,18 @@ graph TB
         I[Protocol SDKs]
         J[DeFi Protocols]
         
-        E --> I
+        C --> I
         I --> J
     end
     
     %% Security connections
-    C -.-> F
-    F -.-> E
-    G -.-> E
-    H -.-> E
+    F -.-> C
+    G -.-> C
+    H -.-> C
 
     %% Apply styles
     class A,P highlight
-    class B,C,D,E core
+    class B,C core
     class F,G,H security
 ```
 
@@ -69,12 +64,12 @@ The heart of Edwin is its Protocol Abstraction Layer, which provides a standardi
 - **DEX Protocols**: Unified interfaces for liquidity provision and trading
 - **Future Protocol Types**: Extensible system for adding new protocol categories
 
-### Provider System
-Edwin implements a sophisticated provider system that:
-- Manages different protocol SDK requirements
-- Handles blockchain infrastructure differences
-- Provides seamless transitions between underlying implementations
-- Ensures consistent interaction patterns regardless of the protocol
+### AI Framework Adapters
+Edwin's framework adapters enable seamless integration with AI frameworks:
+- Standardized command interface
+- State and context management
+- Response formatting
+- Error handling
 
 ### Security Layer
 Edwin incorporates multiple security measures to ensure safe DeFi operations:
@@ -89,6 +84,7 @@ Edwin incorporates multiple security measures to ensure safe DeFi operations:
    - Whitelist verification
    - Protocol health checks
    - Operation boundaries
+   - Risk assessment
 
 ## Data Flow
 
@@ -99,7 +95,7 @@ Edwin incorporates multiple security measures to ensure safe DeFi operations:
 ### 2. Protocol Abstraction
 - Command is mapped to standardized protocol interface
 - Protocol type is identified (Lending, DEX, etc.)
-- Provider system selects appropriate implementation
+- Operation is validated against protocol interface
 
 ### 3. Security Checks
 - Transaction validation
@@ -107,7 +103,7 @@ Edwin incorporates multiple security measures to ensure safe DeFi operations:
 - Security boundaries check
 
 ### 4. Protocol Execution
-- Provider executes operation through protocol SDK
+- Protocol interface executes operation through SDK
 - Transaction is signed and broadcast
 - Result is monitored and returned
 
@@ -123,14 +119,13 @@ Edwin provides a clean adapter interface that:
 ### For DeFi Protocols
 Protocols can integrate with Edwin through:
 - Implementation of protocol type interfaces
-- Provider system adaptation
 - SDK integration
 
 ## Technical Implementation
 
-Edwin is built with TypeScript, offering:
-- Modern development experience
-- Easy integration with existing TypeScript/JavaScript projects
-- Comprehensive type definitions for all interfaces
+Edwin is an open-source TypeScript library that enables:
+- Extensibility to all protocols
+- Easy integration with existing frameworks
+- Community driven development
 
 
