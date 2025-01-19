@@ -24,7 +24,7 @@ layout:
 
 ### The Missing Bridge in DeFAI
 
-The world of finance is experiencing two parallel revolutions. AI frameworks like LangChain, Eliza, and G.A.M.E have transformed software development, creating autonomous agents that reason and execute complex tasks. Simultaneously, DeFi protocols like Aave, Uniswap, and Morpho have built an open, programmable financial system managing billions in assets. Yet a critical gap exists - AI frameworks excel at decision-making but lack native DeFi capabilities, while DeFi protocols remain isolated from AI systems. Each protocol speaks its own language, uses unique interfaces, and requires specialized knowledge to integrate, creating a barrier between these two revolutionary technologies.
+The world of finance is experiencing two parallel revolutions. AI frameworks like [LangChain](https://github.com/langchain-ai/langchain), [Eliza](https://github.com/elizaos/eliza), and [G.A.M.E](https://github.com/game-by-virtuals/game-python/tree/main) have transformed software development, creating autonomous agents that reason and execute complex tasks. Simultaneously, DeFi protocols like [Aave](https://aave.com/), [Uniswap](https://uniswap.org/), and [Morpho](https://morpho.xyz/) have built an open, programmable financial system managing billions in assets. Yet a critical gap exists - AI frameworks excel at decision-making but lack native DeFi capabilities, while DeFi protocols remain isolated from AI systems. Each protocol speaks its own language, uses unique interfaces, and requires specialized knowledge to integrate, creating a barrier between these two revolutionary technologies.
 
 ### What is Edwin?
 
@@ -101,7 +101,7 @@ Edwin enables the creation of sophisticated DeFAI agents:
 ### Popular Links
 
 * [GitHub Repository](https://github.com/edwin-finance/edwin)
-* Discord Community
+* [Discord Community](https://discord.gg/2NKmbNhM)
 * Twitter Page
 
 ### Contributing
@@ -118,5 +118,5 @@ Edwin is an open-source project welcoming contributions from the community:
 
 1. Follow the [quickstart.md](getting-started/quickstart.md "mention") Guide
 2. Explore more [Broken link](broken-reference "mention").
-3. Join our Discord
+3. Join our [Discord](https://discord.gg/2NKmbNhM)
 4. Start Building
