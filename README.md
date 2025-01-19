@@ -81,6 +81,10 @@ edwin.connect(agent);
 
 * Lending and borrowing
 * Liquidity provision
+* Perpetual trading
+* Staking and restaking
+* Yield farming
+* CDP management
 * Portfolio management
 
 #### Developer Tools
@@ -91,17 +95,23 @@ edwin.connect(agent);
 
 ### Use Cases
 
-Edwin enables the creation of sophisticated DeFAI agents:
+Edwin enables the creation of sophisticated DeFAI agents. Here are just a few examples of what you can build:
 
 * **Yield Optimization**: Automate staking and lending strategies across protocols
 * **Liquidity Management**: Deploy and manage pool positions
-* **Portfolio** **Management**: Handle cross-protocol positions
+* **Portfolio Management**: Handle cross-protocol positions
 * **Arbitrage**: Execute cross-protocol opportunities
+* **Risk Analysis**: Monitor protocol health and assess investment risks
+* **Market Sentiment**: Analyze on-chain data for market trends
+* **Dynamic Rebalancing**: Maintain optimal portfolio allocations based on market conditions
+
+The possibilities are endless - as DeFAI evolves, new use cases emerge daily.
 
 ### Popular Links
 
 * [GitHub Repository](https://github.com/edwin-finance/edwin)
 * [Discord Community](https://discord.gg/2NKmbNhM)
+* Telegram Community
 * Twitter Page
 
 ### Contributing

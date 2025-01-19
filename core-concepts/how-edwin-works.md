@@ -22,7 +22,7 @@ graph TB
         A --> P
     end
     
-    subgraph "Edwin"
+    subgraph "Edwin - DeFAI Layer"
         B[Framework Adapter]
         C[Protocol Abstraction Layer]
         
