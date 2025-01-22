@@ -127,7 +127,8 @@ The possibilities are endless - as DeFAI evolves, new use cases emerge daily.
 * [GitHub Repository](https://github.com/edwin-finance/edwin)
 * [Discord Community](https://discord.gg/hkBdyTnqSn)
 * [Telegram Community](https://t.me/EdwinDeFAI)
-* Twitter Page
+* [Twitter Page](https://x.com/buildwithedwin)
+* [Website](https://edwin.finance/)
 
 ### Contributing
 
