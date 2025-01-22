@@ -42,7 +42,7 @@ Edwin consists of several core components that work together to enable DeFAI ope
 * **Framework Adapters**: Integration with AI frameworks
 * **Security Layer**: Transaction verification and execution
 
-<figure><img src=".gitbook/assets/Edwin Diagram (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Edwin Diagram (6).png" alt=""><figcaption></figcaption></figure>
 
 #### Current Integrations
 
