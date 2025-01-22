@@ -28,13 +28,13 @@ The world of finance is experiencing two parallel revolutions. AI frameworks lik
 
 ### What is Edwin?
 
-Edwin enables AI agents built on top of AI frameworks to seamlessly interact with DeFi protocols. By providing a universal interface and handling blockchain operations securely, Edwin serves as the infrastructure layer that bridges the gap between AI and DeFi, unlocking the potential of autonomous financial operations - DeFAI.
+Edwin enables AI agents built on top of AI frameworks to seamlessly interact with DeFi protocols. By providing a universal interface and handling blockchain operations securely, **Edwin serves as the infrastructure layer that bridges the gap between AI and DeFi, unlocking the potential of autonomous financial agents - DeFAI.**
 
 <figure><img src=".gitbook/assets/lecture 1.jpg" alt=""><figcaption></figcaption></figure>
 
 ### Architecture
 
-Edwin consists of several core components that work together to enable DeFAI operations:
+Edwin consists of several core components that work together to enable DeFAI agents:
 
 #### Core Components
 
@@ -92,7 +92,7 @@ await edwin.actions.supply.execute({
 
 ### Key Features
 
-#### Protocol Operations
+#### DeFi Operations
 
 * Lending and borrowing
 * Liquidity provision
