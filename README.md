@@ -42,37 +42,52 @@ Edwin consists of several core components that work together to enable DeFAI ope
 * **Framework Adapters**: Integration with AI frameworks
 * **Security Layer**: Transaction verification and execution
 
+<figure><img src=".gitbook/assets/Edwin Diagram (5).png" alt=""><figcaption></figcaption></figure>
+
 #### Current Integrations
 
 AI Frameworks:
 
 * Eliza
 
+Blockchains:
+
+* Solana
+* EVM
+
 DeFi Protocols:
 
-* Lending: Aave, Morpho
-* DEX: Uniswap, Curve
+* Lending: Aave
+* DEX: Uniswap
 
 ### Getting Started
 
-<pre class="language-bash"><code class="lang-bash"><strong>pnpm install edwin
-</strong></code></pre>
+```bash
+pnpm install edwin-sdk
+```
 
 Basic usage:
 
 ```typescript
-import { Edwin } from 'edwin';
-import { ElizaAgent } from 'eliza';
+import { Edwin, EdwinConfig } from 'edwin-sdk';
 
-// Initialize Edwin with your configuration
-const edwin = new Edwin({
-  framework: 'eliza',
-  protocols: ['aave', 'compound']
+// Configure Edwin wallets and providers
+const edwinConfig: EdwinConfig = {
+    evmPrivateKey: process.env.PRIVATE_KEY,
+    solanaPrivateKey: process.env.SOLANA_PRIVATE_KEY,
+    actions: ['supply', 'withdraw', 'stake']
+};
+
+// Initialize Edwin SDK
+const edwin = new Edwin(edwinConfig);
+
+// Supply tokens to a lending protocol
+await edwin.actions.supply.execute({
+    protocol: 'aave',
+    chain: 'base',
+    amount: '100',
+    asset: 'usdc'
 });
-
-// Connect your AI agent
-const agent = new ElizaAgent();
-edwin.connect(agent);
 ```
 
 ### Key Features
@@ -127,6 +142,6 @@ Edwin is an open-source project welcoming contributions from the community:
 ### Next Steps
 
 1. Follow the [quickstart.md](getting-started/quickstart.md "mention") Guide
-2. Explore more [Broken link](broken-reference "mention").
+2. Explore more [Broken link](broken-reference "mention")
 3. Join our [Discord](https://discord.gg/2NKmbNhM)
 4. Start Building
