@@ -42,7 +42,7 @@ Edwin consists of several core components that work together to enable DeFAI ope
 * **Framework Adapters**: Integration with AI frameworks
 * **Security Layer**: Transaction verification and execution
 
-<figure><img src=".gitbook/assets/Edwin Diagram (6).png" alt=""><figcaption></figcaption></figure>
+<figure><picture><source srcset=".gitbook/assets/Edwin Diagram (8).png" media="(prefers-color-scheme: dark)"><img src=".gitbook/assets/Edwin Diagram (6).png" alt=""></picture><figcaption></figcaption></figure>
 
 #### Current Integrations
 
@@ -125,8 +125,8 @@ The possibilities are endless - as DeFAI evolves, new use cases emerge daily.
 ### Popular Links
 
 * [GitHub Repository](https://github.com/edwin-finance/edwin)
-* [Discord Community](https://discord.gg/2NKmbNhM)
-* Telegram Community
+* [Discord Community](https://discord.gg/hkBdyTnqSn)
+* [Telegram Community](https://t.me/EdwinDeFAI)
 * Twitter Page
 
 ### Contributing

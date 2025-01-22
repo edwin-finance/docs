@@ -11,6 +11,7 @@ Edwin is a TypeScript library that serves as the bridge between AI agents and De
 ```mermaid
 graph TB
     %% Styling
+    classDef default stroke:#333,stroke-width:2px
     classDef highlight fill:#e1f5fe,stroke:#01579b,stroke-width:2px
     classDef core fill:#e8f5e9,stroke:#2e7d32,stroke-width:2px
     classDef security fill:#ffebee,stroke:#c62828,stroke-width:2px
