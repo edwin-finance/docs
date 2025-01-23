@@ -8,7 +8,7 @@ icon: lightbulb
 
 <figure><img src=".gitbook/assets/Edwin “wealth-friend. ēad (wealth, good fortune) - wine (friend) Old English-4.png" alt=""><figcaption></figcaption></figure>
 
-## Team
+## Core Contributors
 
 <figure><img src=".gitbook/assets/team.png" alt=""><figcaption></figcaption></figure>
 
