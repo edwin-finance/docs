@@ -4,7 +4,9 @@ icon: lightbulb
 
 # About
 
-<figure><img src=".gitbook/assets/Edwin “wealth-friend. ēad (wealth, good fortune) - wine (friend) Old English.png" alt=""><figcaption></figcaption></figure>
+
+
+<figure><img src=".gitbook/assets/Edwin “wealth-friend. ēad (wealth, good fortune) - wine (friend) Old English-4.png" alt=""><figcaption></figcaption></figure>
 
 ## Team
 
