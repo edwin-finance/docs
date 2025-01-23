@@ -4,7 +4,7 @@ icon: coin-front
 
 # Tokenomics
 
-<figure><img src="../.gitbook/assets/Untitled design-6.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Untitled design-6.png" alt="" width="563"><figcaption></figcaption></figure>
 
 ### Who is eligible for the airdrop?
 
