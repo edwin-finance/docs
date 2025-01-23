@@ -4,13 +4,11 @@ icon: lightbulb
 
 # About
 
-Edwin definition
+<figure><img src=".gitbook/assets/Edwin “wealth-friend. ēad (wealth, good fortune) - wine (friend) Old English.png" alt=""><figcaption></figcaption></figure>
 
-Team
+## Team
 
-Liran Markin (linkedin https://www.linkedin.com/in/liran-markin/) (twitter https://x.com/liranmarkin)
+<figure><img src=".gitbook/assets/team.png" alt=""><figcaption></figcaption></figure>
 
-* Cybersecurity at Israeli Intelligence Unit
-* PM @ eOracle
-* Bronze medalist representing Israel in the International Olympiad in Informatics
-* M.Sc. Computer Science
+<table data-header-hidden><thead><tr><th width="275"></th><th>off</th><th data-hidden></th></tr></thead><tbody><tr><td><p>Liran Markin (<a href="https://www.linkedin.com/in/liran-markin/">LinkedIn</a>) (<a href="https://x.com/liranmarkin">X</a>)</p><ul><li>Cybersecurity at Israeli Intelligence Unit</li><li>PM @ eOracle</li><li>Bronze medalist in the International Olympiad in Informatics</li><li>M.Sc. Computer Science</li></ul></td><td><p>Gal Wiernik (<a href="https://www.linkedin.com/in/galwiernik/">LinkedIn</a>) (<a href="https://x.com/offchaingod">X</a>)</p><ul><li>Cybersecurity Team Lead at Israeli Intelligence Unit</li><li>Team Lead @ eOracle</li><li>M.Sc. Computer Science</li></ul><p><br><br></p></td><td><p></p><p><img src=".gitbook/assets/avatar.png" alt="" data-size="original"></p></td></tr></tbody></table>
+
