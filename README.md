@@ -1,7 +1,7 @@
 ---
 icon: hand-wave
-cover: .gitbook/assets/shops 2.jpg
-coverY: 46.33599999999999
+cover: .gitbook/assets/openart-a588bf89-f39f-4d9a-ac3f-d9ca3a6de2b1.png
+coverY: 0
 layout:
   cover:
     visible: true

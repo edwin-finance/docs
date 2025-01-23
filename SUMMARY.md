@@ -1,11 +1,13 @@
 # Table of contents
 
 * [Edwin: The Missing Bridge in DeFAI](README.md)
+* [About](about.md)
 
 ## Getting Started
 
 * [Quickstart](getting-started/quickstart.md)
 * [FAQ](getting-started/publish-your-docs.md)
+* [Tokenomics](getting-started/tokenomics.md)
 
 ## Core Concepts
 
