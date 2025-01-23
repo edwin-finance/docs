@@ -6,14 +6,23 @@ icon: coin-front
 
 <figure><img src="../.gitbook/assets/Untitled design-6.png" alt=""><figcaption></figcaption></figure>
 
+### Who is eligible for the airdrop?
 
+#### DeFAI Agent Developers (2%):
 
+* Must have built an agent that uses Edwin's SDK
+* The agent should demonstrate real DeFi strategies (not just test transactions)
+* Extra points for:
+  * Having a consistent transaction history
+  * Building something unique/innovative
+  * Creating educational content about their agent
 
+#### Open Source Contributors (1%):
 
-
-
-
-
-\[Attach link for PinkSale lock - 3 months]
-
-\[Who is eligible for the airdrop?]&#x20;
+* Meaningful contributions to Edwin's codebase
+* Focus on:
+  * New protocol integrations
+  * Core functionality enhancements
+  * Security improvements
+* Quality of PRs over quantity
+* Documentation improvements also count
