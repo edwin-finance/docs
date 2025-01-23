@@ -18,7 +18,9 @@ layout:
     visible: true
 ---
 
-# Edwin: The Missing Bridge in DeFAI
+# Hello Edwin
+
+## The Missing Bridge in DeFAI
 
 The world of finance is experiencing two parallel revolutions. AI frameworks like [LangChain](https://github.com/langchain-ai/langchain), [Eliza](https://github.com/elizaos/eliza), and [G.A.M.E](https://github.com/game-by-virtuals/game-python/tree/main) have transformed software development, creating autonomous agents that reason and execute complex tasks. Simultaneously, DeFi protocols like [Aave](https://aave.com/), [Uniswap](https://uniswap.org/), and [Morpho](https://morpho.xyz/) have built an open, programmable financial system managing billions in assets. Yet a critical gap exists - AI frameworks excel at decision-making but lack native DeFi capabilities, while DeFi protocols remain isolated from AI systems. Each protocol speaks its own language, uses unique interfaces, and requires specialized knowledge to integrate, creating a barrier between these two revolutionary technologies.
 
@@ -56,33 +58,7 @@ DeFi Protocols:
 
 ### Getting Started
 
-```bash
-pnpm install edwin-sdk
-```
-
-Basic usage:
-
-```typescript
-import { Edwin, EdwinConfig } from 'edwin-sdk';
-
-// Configure Edwin wallets and providers
-const edwinConfig: EdwinConfig = {
-    evmPrivateKey: process.env.PRIVATE_KEY,
-    solanaPrivateKey: process.env.SOLANA_PRIVATE_KEY,
-    actions: ['supply', 'withdraw', 'stake']
-};
-
-// Initialize Edwin SDK
-const edwin = new Edwin(edwinConfig);
-
-// Supply tokens to a lending protocol
-await edwin.actions.supply.execute({
-    protocol: 'aave',
-    chain: 'base',
-    amount: '100',
-    asset: 'usdc'
-});
-```
+{% include ".gitbook/includes/example-code-block.md" %}
 
 ### Key Features
 

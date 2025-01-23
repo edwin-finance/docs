@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Edwin: The Missing Bridge in DeFAI](README.md)
+* [Hello Edwin](README.md)
 * [About](about.md)
 
 ## Getting Started
