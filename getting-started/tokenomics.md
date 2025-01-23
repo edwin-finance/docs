@@ -4,7 +4,9 @@ icon: coin-front
 
 # Tokenomics
 
-<figure><img src="../.gitbook/assets/PIE CHART.png" alt=""><figcaption></figcaption></figure>
+
+
+<figure><img src="../.gitbook/assets/Untitled design-5.png" alt=""><figcaption></figcaption></figure>
 
 
 
