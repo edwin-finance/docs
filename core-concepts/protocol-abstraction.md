@@ -51,6 +51,7 @@ Standardized operations for yield generation:
 - Claim rewards
 - Track yield
 
+For a detailed understanding of the action system, refer to the [Action System](action-system.md) documentation.
 ## Multichain by Design
 
 Protocol abstraction in Edwin extends across multiple blockchain networks. The same commands work consistently across different chains, abstracting away the complexity of:
