@@ -1,11 +1,11 @@
 ---
 icon: hand-wave
-cover: https://gitbookio.github.io/onboarding-template-images/header.png
-coverY: 0
+cover: .gitbook/assets/shops 2.jpg
+coverY: 46.33599999999999
 layout:
   cover:
     visible: true
-    size: full
+    size: hero
   title:
     visible: true
   description:
@@ -18,19 +18,15 @@ layout:
     visible: true
 ---
 
-# Hello Edwin
-
-<figure><img src=".gitbook/assets/office 2.jpg" alt=""><figcaption></figcaption></figure>
-
-### The Missing Bridge in DeFAI
+# Edwin: The Missing Bridge in DeFAI
 
 The world of finance is experiencing two parallel revolutions. AI frameworks like [LangChain](https://github.com/langchain-ai/langchain), [Eliza](https://github.com/elizaos/eliza), and [G.A.M.E](https://github.com/game-by-virtuals/game-python/tree/main) have transformed software development, creating autonomous agents that reason and execute complex tasks. Simultaneously, DeFi protocols like [Aave](https://aave.com/), [Uniswap](https://uniswap.org/), and [Morpho](https://morpho.xyz/) have built an open, programmable financial system managing billions in assets. Yet a critical gap exists - AI frameworks excel at decision-making but lack native DeFi capabilities, while DeFi protocols remain isolated from AI systems. Each protocol speaks its own language, uses unique interfaces, and requires specialized knowledge to integrate, creating a barrier between these two revolutionary technologies.
 
-### What is Edwin?
+#### What is Edwin?
 
-Edwin enables AI agents built on top of AI frameworks to seamlessly interact with DeFi protocols. By providing a universal interface and handling blockchain operations securely, **Edwin serves as the infrastructure layer that bridges the gap between AI and DeFi, unlocking the potential of autonomous financial agents - DeFAI.**
+Edwin enables AI agents built on top of AI frameworks to interact with DeFi protocols seamlessly. By providing a universal interface and handling blockchain operations securely, **Edwin serves as the infrastructure layer that bridges the gap between AI and DeFi, unlocking the potential of autonomous financial agents - DeFAI.**
 
-<figure><img src=".gitbook/assets/lecture 1.jpg" alt=""><figcaption></figcaption></figure>
+<figure><picture><source srcset=".gitbook/assets/Edwin Diagram (8).png" media="(prefers-color-scheme: dark)"><img src=".gitbook/assets/Edwin Diagram (6).png" alt=""></picture><figcaption></figcaption></figure>
 
 ### Architecture
 
@@ -41,8 +37,6 @@ Edwin consists of several core components that work together to enable DeFAI age
 * **Protocol Abstraction Layer**: Unified interface for DeFi operations
 * **Framework Adapters**: Integration with AI frameworks
 * **Security Layer**: Transaction verification and execution
-
-<figure><picture><source srcset=".gitbook/assets/Edwin Diagram (8).png" media="(prefers-color-scheme: dark)"><img src=".gitbook/assets/Edwin Diagram (6).png" alt=""></picture><figcaption></figcaption></figure>
 
 #### Current Integrations
 
