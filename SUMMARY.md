@@ -18,7 +18,7 @@
 * [Action System](core-concepts/action-system.md)
 
 ## Community
-
+* [Introduction](community/community-introduction.md)
 * [Contributing Guidelines](community/contributing-guidelines.md)
 
 ***
