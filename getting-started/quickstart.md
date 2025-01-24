@@ -4,8 +4,6 @@ icon: bullseye-arrow
 
 # Quickstart
 
-{% include "../.gitbook/includes/example-code-block.md" %}
-
 ## Usage within an Agent
 
 Choose an AI Agent framework - we will use elizaOS in this example.

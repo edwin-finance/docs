@@ -58,8 +58,6 @@ DeFi Protocols:
 
 ### Getting Started
 
-{% include ".gitbook/includes/example-code-block.md" %}
-
 ### Key Features
 
 #### DeFi Operations
