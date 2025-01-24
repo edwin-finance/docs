@@ -6,6 +6,8 @@ icon: coin-front
 
 <figure><img src="../.gitbook/assets/Untitled design-6.png" alt="" width="563"><figcaption></figcaption></figure>
 
+[PinkSale token lock](https://www.pinksale.finance/solana/pinklock/record/FFJ7ZEn6nerudgG5SiqjfmEdrbF47gxJSPFGD8bTXT3y)
+
 ### Who is eligible for the airdrop?
 
 #### DeFAI Agent Developers (2%):
