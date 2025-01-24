@@ -6,7 +6,7 @@
 ## Getting Started
 
 * [Quickstart](getting-started/quickstart.md)
-* [FAQ](getting-started/publish-your-docs.md)
+* [FAQ](getting-started/faq.md)
 * [Tokenomics](getting-started/tokenomics.md)
 
 ## Core Concepts
