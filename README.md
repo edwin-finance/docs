@@ -93,7 +93,7 @@ The possibilities are endless - as DeFAI evolves, new use cases emerge daily.
 ### Popular Links
 
 * [GitHub Repository](https://github.com/edwin-finance/edwin)
-* [Discord Community](https://discord.gg/hkBdyTnqSn)
+* [Discord Community](https://discord.gg/QNA55N3KtF)
 * [Telegram Community](https://t.me/EdwinDeFAI)
 * [Twitter Page](https://x.com/buildwithedwin)
 * [Website](https://edwin.finance/)
@@ -112,5 +112,5 @@ Edwin is an open-source project welcoming contributions from the community:
 
 1. Follow the [quickstart.md](getting-started/quickstart.md "mention") Guide
 2. Explore our [Documentation](core-concepts/how-edwin-works.md)
-3. Join our [Discord](https://discord.gg/2NKmbNhM)
+3. Join our [Discord](https://discord.gg/QNA55N3KtF)
 4. Start Building
