@@ -102,7 +102,7 @@ If you need assistance:
 - Join our [Discord](https://discord.gg/hkBdyTnqSn)
 - Ask in our [Telegram](https://t.me/EdwinDeFAI)
 - Check existing documentation
-- Open a GitHub issu    e
+- Open a GitHub issue
 
 ## Security
 

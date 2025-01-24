@@ -111,6 +111,6 @@ Edwin is an open-source project welcoming contributions from the community:
 ### Next Steps
 
 1. Follow the [quickstart.md](getting-started/quickstart.md "mention") Guide
-2. Explore more [Broken link](broken-reference "mention")
+2. Explore our [Documentation](core-concepts/how-edwin-works.md)
 3. Join our [Discord](https://discord.gg/2NKmbNhM)
 4. Start Building
