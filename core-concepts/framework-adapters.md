@@ -15,8 +15,7 @@ The adapter interface is designed to be lightweight and flexible, allowing AI fr
 Setting up an adapter requires minimal configuration. Here's how a typical AI agent integration flows:
 
 ```typescript
-import { Edwin } from "edwin-sdk";
-import { EdwinConfig } from "edwin-sdk";
+import { Edwin, EdwinConfig } from "edwin-sdk";
 
 
 export async function getEdwinClient(): Promise<Edwin> {
@@ -44,10 +43,11 @@ export const edwinProvider: Provider = {
 ```
 
 Common AI agent patterns include:
-- Autonomous decision execution
-- Conversation-driven operations
-- Multi-step strategic actions
-- Position monitoring and management
+
+* Autonomous decision execution
+* Conversation-driven operations
+* Multi-step strategic actions
+* Position monitoring and management
 
 Each adapter maintains consistent behavior across different protocols and chains, while providing framework-specific optimizations for better AI agent performance and operational efficiency.
 
@@ -55,16 +55,16 @@ Each adapter maintains consistent behavior across different protocols and chains
 
 Framework adapters provide structured responses that enable AI agents to make intelligent decisions. Each operation returns:
 
-- Operation status (success/failure)
-- Detailed result data
-- Context for next strategic actions
-- Relevant warnings or suggestions
+* Operation status (success/failure)
+* Detailed result data
+* Context for next strategic actions
+* Relevant warnings or suggestions
 
 When errors occur, adapters format the responses in a way that empowers AI agents to:
-- Implement retry strategies
-- Explore alternative approaches
-- Manage risk exposure
-- Communicate effectively with users
+
+* Implement retry strategies
+* Explore alternative approaches
+* Manage risk exposure
+* Communicate effectively with users
 
 The adapter layer ensures that complex DeFAI operations are translated into clear, actionable feedback that AI agents can process and respond to autonomously.
-
