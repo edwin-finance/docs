@@ -1,6 +1,0 @@
----
-icon: bookmark
----
-
-# Integration Standards
-

@@ -1,6 +1,0 @@
----
-icon: building-ngo
----
-
-# Governance
-
