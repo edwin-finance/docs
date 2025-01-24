@@ -10,7 +10,35 @@ Edwin comes with a modular DeFAI system that can be used either stand alone or a
 
 To use Edwin as a standalone package, follow these steps:
 
-{% include "../.gitbook/includes/example-code-block.md" %}
+1. Install the Edwin package:
+
+```bash
+pnpm install edwin-sdk
+```
+
+2. Use the package functionality:
+
+```typescript
+import { Edwin, EdwinConfig } from 'edwin-sdk';
+
+// Configure Edwin wallets and providers
+const edwinConfig: EdwinConfig = {
+    evmPrivateKey: process.env.PRIVATE_KEY,
+    solanaPrivateKey: process.env.SOLANA_PRIVATE_KEY,
+    actions: ['supply', 'withdraw', 'stake']
+};
+
+// Initialize Edwin SDK
+const edwin = new Edwin(edwinConfig);
+
+// Supply tokens to a lending protocol
+await edwin.actions.supply.execute({
+    protocol: 'aave',
+    chain: 'base',
+    amount: '100',
+    asset: 'usdc'
+});
+```
 
 ## Usage within an Agent
 
