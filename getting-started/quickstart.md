@@ -4,6 +4,14 @@ icon: bullseye-arrow
 
 # Quickstart
 
+## Using Edwin Capabilities&#x20;
+
+Edwin comes with a modular DeFAI system that can be used either stand alone or as part of an integration into an agent framework.
+
+To use Edwin as a standalone package, follow these steps:
+
+{% include "../.gitbook/includes/example-code-block.md" %}
+
 ## Usage within an Agent
 
 Choose an AI Agent framework - we will use elizaOS in this example.
