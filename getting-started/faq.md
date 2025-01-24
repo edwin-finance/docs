@@ -36,7 +36,7 @@ Edwin supports a growing list of major DeFi protocols including:
 - And more...
 
 ### What AI frameworks can I use with Edwin?
-Edwin currently provides first-class support for the Eliza framework, with plans to support more AI frameworks in the future. The framework adapter system makes it easy to integrate new AI frameworks. Learn more in our [AI Framework Adapters](core-concepts/framework-adapters.md) documentation.
+Edwin currently provides first-class support for the Eliza framework, with plans to support more AI frameworks in the future. The framework adapter system makes it easy to integrate new AI frameworks. Learn more in our [AI Framework Adapters](../core-concepts/framework-adapters.md) documentation.
 
 ### Do I need any special credentials or API keys?
 You'll need:
@@ -52,16 +52,16 @@ All sensitive information is handled securely through environment variables.
 Edwin's architecture consists of several key components:
 
 **Protocol Abstraction Layer**
-Creates a unified interface across different protocols. Learn more in our [Protocol Abstraction](core-concepts/protocol-abstraction.md) documentation.
+Creates a unified interface across different protocols. Learn more in our [Protocol Abstraction](../core-concepts/protocol-abstraction.md) documentation.
 
 **Action System**
-Provides standardized operations for AI agents to execute. See the [Action System](core-concepts/action-system.md) documentation for details.
+Provides standardized operations for AI agents to execute. See the [Action System](../core-concepts/action-system.md) documentation for details.
 
 **AI Framework Adapters**
-Enables seamless integration with AI frameworks. Check out our [AI Framework Adapters](core-concepts/framework-adapters.md) documentation.
+Enables seamless integration with AI frameworks. Check out our [AI Framework Adapters](../core-concepts/framework-adapters.md) documentation.
 
 **Security Model**
-Ensures safe and controlled DeFi operations. Read more in our [Security Model](core-concepts/security-model.md) documentation.
+Ensures safe and controlled DeFi operations. Read more in our [Security Model](../core-concepts/security-model.md) documentation.
 
 ### Can I integrate my own protocols?
 Yes! Edwin is designed to be extensible. You can integrate new protocols by implementing the protocol interface and following our integration guidelines. This allows your protocol to be immediately accessible to all AI agents using Edwin.
