@@ -54,7 +54,7 @@ Blockchains:
 DeFi Protocols:
 
 * Lending: Aave
-* DEX: Uniswap
+* DEX: Meteora, Uniswap
 
 ### Getting Started
 
