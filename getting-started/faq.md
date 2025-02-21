@@ -63,8 +63,12 @@ Enables seamless integration with AI frameworks. Check out our [AI Framework Ada
 **Security Model**
 Ensures safe and controlled DeFi operations. Read more in our [Security Model](../core-concepts/security-model.md) documentation.
 
-### Can I integrate my own protocols?
-Yes! Edwin is designed to be extensible. You can integrate new protocols by implementing the protocol interface and following our integration guidelines. This allows your protocol to be immediately accessible to all AI agents using Edwin.
+### I need to integrate with a protocol you don't support. Should I use Edwin or look for another solution?
+The power of Edwin extends beyond just its protocol inventory; it is built primarily as a translational
+layer designed to handle everything needed for new protocols to be fully compatible with AI agents, offering
+out-of-the-box transaction handling and security features. The open-source nature of Edwin provides agent builders
+with the best possible headstart by enabling seamless integration of new protocols to leverage its features
+without needing to start from scratch.
 
 ## Token and Community
 
