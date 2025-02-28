@@ -8,7 +8,7 @@ icon: plug
 
 Edwin's framework adapters provide a seamless connection between AI frameworks and DeFAI operations. Through these adapters, AI agents become autonomous actors in DeFi protocols, using their native communication patterns while Edwin handles the complexity of protocol interactions behind the scenes.
 
-The adapter interface is designed to be lightweight and flexible, allowing AI frameworks to integrate with minimal configuration. Currently, Edwin provides first-class support for the Eliza framework, enabling AI agents to autonomously execute DeFAI operations through natural conversations.
+The adapter interface is designed to be lightweight and flexible, allowing AI frameworks to integrate with minimal configuration. Currently, Edwin provides first-class support for the Eliza and LangChain frameworks, enabling AI agents to autonomously execute DeFAI operations through natural conversations.
 
 ## Working with Adapters
 

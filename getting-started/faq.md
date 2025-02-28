@@ -37,7 +37,7 @@ Edwin supports a growing list of major DeFi protocols including:
 - And more...
 
 ### What AI frameworks can I use with Edwin?
-Edwin currently provides first-class support for the Eliza framework, with plans to support more AI frameworks in the future. The framework adapter system makes it easy to integrate new AI frameworks. Learn more in our [AI Framework Adapters](../core-concepts/framework-adapters.md) documentation.
+Edwin currently provides first-class support for the Eliza and LangChain frameworks, with plans to support more AI frameworks in the future. The framework adapter system makes it easy to integrate new AI frameworks. Learn more in our [AI Framework Adapters](../core-concepts/framework-adapters.md) documentation.
 
 ### Do I need any special credentials or API keys?
 You'll need:
