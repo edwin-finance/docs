@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Hello Edwin](README.md)
+* [Edwin - The DeFAI Layer](README.md)
 * [About](about.md)
 
 ## Getting Started

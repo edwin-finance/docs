@@ -1,11 +1,6 @@
 ---
 icon: hand-wave
-cover: .gitbook/assets/openart-a588bf89-f39f-4d9a-ac3f-d9ca3a6de2b1.png
-coverY: 0
 layout:
-  cover:
-    visible: true
-    size: hero
   title:
     visible: true
   description:
@@ -18,7 +13,7 @@ layout:
     visible: true
 ---
 
-# Hello Edwin
+# Edwin - The DeFAI Layer
 
 ## The Missing Bridge in DeFAI
 
