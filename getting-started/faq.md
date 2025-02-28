@@ -30,9 +30,10 @@ For detailed instructions, check out our [Quickstart Guide](quickstart.md).
 
 ### What protocols does Edwin support?
 Edwin supports a growing list of major DeFi protocols including:
-- Lending: Kamino Lend, Aave
+- Lending: Aave
 - DEX: Meteora, Uniswap
-- Staking: Jito, Lido
+- DEX Aggregator: Jupiter
+- Data Providers: Cookie, eOracle
 - And more...
 
 ### What AI frameworks can I use with Edwin?

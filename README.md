@@ -40,6 +40,7 @@ Edwin consists of several core components that work together to enable DeFAI age
 AI Frameworks:
 
 * Eliza
+* LangChain
 
 Blockchains:
 
@@ -50,6 +51,12 @@ DeFi Protocols:
 
 * Lending: Aave
 * DEX: Meteora, Uniswap
+* DEX Aggregator: Jupiter
+
+Data Providers:
+
+* Cookie
+* eOracle
 
 ### Getting Started
 
