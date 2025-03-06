@@ -17,6 +17,10 @@
 * [Security Model](core-concepts/security-model.md)
 * [Action System](core-concepts/action-system.md)
 
+## Guides
+
+* [Run a Meteora LP Agent - No Coding Skills Required](guides/run-a-meteora-lp-agent-no-coding-skills-required.md)
+
 ## Community
 
 * [Introduction](community/community-introduction.md)
