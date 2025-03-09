@@ -55,7 +55,7 @@ Choose the range per side you want the agent to stay on as a percentage of the p
 
 If you want to receive alerts in a dedicated Telegram chat:
 
-* Create a new bot using [BotFather](https://t.me/BotFather) and add it to a dedicated group chat. Follow [this guide](https://gist.github.com/nafiesl/4ad622f344cd1dc3bb1ecbe468ff9f8a).
+* Create a new bot using [BotFather](https://t.me/BotFather) and add it to a dedicated group chat. Follow [this guide](https://gist.github.com/nafiesl/4ad622f344cd1dc3bb1ecbe468ff9f8a) for help with the setup.
 * Setup up the following env variables:
   * <kbd>TELEGRAM\_BOT\_TOKEN</kbd>: Telegram bot token for alerts
   * <kbd>TELEGRAM\_CHAT\_ID</kbd>: Telegram chat ID that is used to receive alerts.
