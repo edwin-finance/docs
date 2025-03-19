@@ -95,4 +95,4 @@ pnpm start:client
 
 Go to [http://localhost:5173/](http://localhost:5173/) and use edwin to dominate DeFi-
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
