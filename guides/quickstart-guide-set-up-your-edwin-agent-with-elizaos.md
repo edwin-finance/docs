@@ -6,70 +6,104 @@ icon: play
 
 This brief guide walks you through the setup and launch of an elizaOS agent utilizing the Edwin plugin.
 
-#### 1. Install the latest releases of elizaOS and Edwin&#x20;
+### Prerequisites
 
-Ensure you have Node.js installed.
+Before you begin, ensure you have:
+
+* Node.js (LTS version)
+* pnpm package manager installed
+* Git
+* Basic command line/terminal proficiency
+* An EVM or Solana wallet with private key access
+* API key from a supported LLM provider (e.g.,  OpenAI or Anthropic)
+* For Solana users: A Helius API key
+
+### Installation and Configuration
+
+#### 1. Clone the Repositories
+
+Start by cloning the necessary repositories:
 
 ```bash
-git clone ttps://github.com/elizaOS/eliza.git
+git clone https://github.com/elizaOS/eliza.git
 git clone -b preconfigured --single-branch https://github.com/edwin-finance/elizaos-plugin-edwin
 cd eliza
 git checkout v0.25.9 # The latest stable release
 pnpm install --no-frozen-lockfile
 ```
 
-#### 2. Add the Edwin Plugin
+#### 2. Install the Edwin Plugin
 
-Install the edwin plugin:
+Add the Edwin plugin to your elizaOS instance:
 
 ```bash
 npx elizaos plugins add @elizaos-plugins/plugin-edwin 
 ```
 
-Make sure to get the latest edwin plugin code on top and get the latest packages:
+Copy the latest plugin code and update dependencies:
 
 ```bash
 cp -r ../elizaos-plugin-edwin/ ./packages/plugin-edwin/
 pnpm install --no-frozen-lockfile
 ```
 
-#### 3. Configure elizaOS with the edwin plugin and character profile
+#### 3. Set Up Character Profile
 
-* Place the following character file in the characters folder:
+Place the `edwin.character.json` configuration file in the `characters` folder of your elizaOS installation.
 
 {% file src="../.gitbook/assets/edwin.character.json" %}
 
-#### 3. Build the plugin and eliza
+**Important:** Edit the character file to specify your preferred LLM provider. For example, if using Anthropic, ensure the file contains:
+
+```json
+"modelProvider": "anthropic"
+```
+
+Match this setting to the API key you'll configure in step 5.
+
+#### 4. Build the Application
+
+Compile the plugin and elizaOS:
 
 ```
 pnpm build
 ```
 
-#### 4.  Set up an EVM or Solana wallet for your agent
+#### 5. Configure Wallet and API Keys
 
-Copy the .env.example:
+Create your environment configuration:
 
 ```
 cp .env.example .env
 ```
 
-For EVM:  Set the `EVM_PRIVATE_KEY` in your `.env` file.
+In the `.env` file:
 
-For Solana:  Set the `SOLANA_PRIVATE_KEY` in your `.env`. If you are planning to use Edwin for Meteora, it is recommended that you use a Helius RPC endpoint. Get a Halius API key here (Helius link) and then set it in `SOLANA_RPC_ENDPOINT`.
+**For EVM chains:**
 
-Also set up an LLM API key for your agent:
+* Set `EVM_PRIVATE_KEY` with your wallet's private key
 
-* For example, for Claude, specify "modelProvider": "anthropic" in your character file, and provide an  ANTHROPIC\_API\_KEY in your `.env`file.
+**For Solana:**
 
-#### 5.  Run Your elizaOS Agent
+* Set `SOLANA_PRIVATE_KEY` with your wallet's private key
+* For Meteora integration: Obtain a Helius API key and set `SOLANA_RPC_ENDPOINT` accordingly
+
+**LLM Configuration:**
+
+* Add your LLM provider API key (e.g., set `ANTHROPIC_API_KEY` for Anthropic)
+* Make sure your character file specifies the correct model provider (e.g., `"modelProvider": "anthropic"`)
+
+#### 6. Launch Your Agent
+
+Start the elizaOS agent with:
 
 ```bash
 pnpm start --character "characters/edwin.character.json"
 ```
 
-#### 5. Verify Edwin is Loaded
+#### 7. Verify Successful Installation
 
-After startup, ensure your logs mention Edwin, confirming successful loading:
+You should see the following banner in your terminal, confirming Edwin is properly loaded:
 
 ```bash
 ┌═════════════════════════════════════┐
@@ -87,12 +121,18 @@ After startup, ensure your logs mention Edwin, confirming successful loading:
 ]
 ```
 
-Your elizaOS agent is now running with Edwin! Open the client and try to use it to perform DeFi operations.
+#### 8. Using Your Edwin-Enabled Agent
+
+On another terminal window, launch the client interface:
 
 ```
 pnpm start:client
 ```
 
-Go to [http://localhost:5173/](http://localhost:5173/) and use edwin to dominate DeFi-
+Access the interface at [http://localhost:5173/](http://localhost:5173/) and begin leveraging Edwin for your DeFi operations.
 
 <figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+
+
+
+Congratulations! Your elizaOS agent is now running with the Edwin plugin installed and ready to use.
