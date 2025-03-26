@@ -4,7 +4,7 @@ icon: play
 
 # Run a Meteora LP Agent - No Coding Skills Required
 
-This comprehensive walkthrough will help you deploy your own automated rebalancing agent on Meteora, allowing you to provide liquidity and maintain optimal positions without constant manual intervention. The agent uses Edwin to execute all operations on Meteora, continuously monitoring your position and automatically rebalancing as market conditions change, maximizing your capital efficiency while you focus on other priorities. Follow these straightforward steps to get your rebalancing agent up and running in minutes, even if you're not experienced with Solana development.
+This comprehensive walkthrough will help you deploy your own automated rebalancing agent on Meteora, allowing you to provide liquidity and maintain optimal positions without constant manual intervention. The agent uses edwin to execute all operations on Meteora, continuously monitoring your position and automatically rebalancing as market conditions change, maximizing your capital efficiency while you focus on other priorities. Follow these straightforward steps to get your rebalancing agent up and running in minutes, even if you're not experienced with Solana development.
 
 Source code: [https://github.com/edwin-finance/meteora-liquidity-rebalancer](https://github.com/edwin-finance/meteora-liquidity-rebalancer)
 

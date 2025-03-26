@@ -2,9 +2,9 @@
 icon: play
 ---
 
-# Quickstart Guide: Set Up Your Edwin Agent with ElizaOS
+# Quickstart Guide: Set Up Your edwin Agent with ElizaOS
 
-This brief guide walks you through the setup and launch of an elizaOS agent utilizing the Edwin plugin.
+This brief guide walks you through the setup and launch of an elizaOS agent utilizing the edwin plugin.
 
 ### Prerequisites
 
@@ -32,9 +32,9 @@ git checkout v0.25.9 # The latest stable release
 pnpm install --no-frozen-lockfile
 ```
 
-#### 2. Install the Edwin Plugin
+#### 2. Install the edwin Plugin
 
-Add the Edwin plugin to your elizaOS instance:
+Add the edwin plugin to your elizaOS instance:
 
 ```bash
 npx elizaos plugins add @elizaos-plugins/plugin-edwin 
@@ -103,7 +103,7 @@ pnpm start --character "characters/edwin.character.json"
 
 #### 7. Verify Successful Installation
 
-You should see the following banner in your terminal, confirming Edwin is properly loaded:
+You should see the following banner in your terminal, confirming edwin is properly loaded:
 
 ```bash
 ┌═════════════════════════════════════┐
@@ -121,7 +121,7 @@ You should see the following banner in your terminal, confirming Edwin is proper
 ]
 ```
 
-#### 8. Using Your Edwin-Enabled Agent
+#### 8. Using Your edwin-Enabled Agent
 
 On another terminal window, launch the client interface:
 
@@ -129,10 +129,10 @@ On another terminal window, launch the client interface:
 pnpm start:client
 ```
 
-Access the interface at [http://localhost:5173/](http://localhost:5173/) and begin leveraging Edwin for your DeFi operations.
+Access the interface at [http://localhost:5173/](http://localhost:5173/) and begin leveraging edwin for your DeFi operations.
 
 <figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 
 
-Congratulations! Your elizaOS agent is now running with the Edwin plugin installed and ready to use.
+Congratulations! Your elizaOS agent is now running with the edwin plugin installed and ready to use.

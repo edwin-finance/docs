@@ -6,7 +6,7 @@ icon: lock
 
 ## Core Security Principles
 
-Edwin's security model is built on the principle of security through standardization. By providing a standardized interface for DeFAI operations, Edwin creates a controlled environment where security can be enforced consistently across all protocols and operations.
+edwin's security model is built on the principle of security through standardization. By providing a standardized interface for DeFAI operations, edwin creates a controlled environment where security can be enforced consistently across all protocols and operations.
 
 The protocol whitelisting approach ensures that only vetted and audited protocols can be integrated into the system. This creates a foundation of trust while maintaining the flexibility needed for effective DeFAI operations.
 
@@ -27,11 +27,11 @@ Transaction-level security ensures safe execution:
 - Transaction simulation before execution
 
 ### State Validation
-State validation is a key area of focus in Edwin's security roadmap. As DeFAI operations become more sophisticated, advanced state validation mechanisms will be introduced to ensure operational safety and risk management.
+State validation is a key area of focus in edwin's security roadmap. As DeFAI operations become more sophisticated, advanced state validation mechanisms will be introduced to ensure operational safety and risk management.
 
 ## AI Agent Boundaries
 
-The Edwin roadmap includes sophisticated boundaries for AI agent operations. Future releases will implement:
+The edwin roadmap includes sophisticated boundaries for AI agent operations. Future releases will implement:
 - Operation limits based on risk levels
 - Built-in threshold checks
 - Automated safeguards for risky operations
@@ -44,5 +44,5 @@ The security model includes comprehensive monitoring and recovery mechanisms:
 - Automated failure detection
 - Clear recovery procedures
 
-Through these layered security measures, Edwin ensures that DeFAI operations remain secure and controlled while maintaining the efficiency needed for effective protocol interactions.
+Through these layered security measures, edwin ensures that DeFAI operations remain secure and controlled while maintaining the efficiency needed for effective protocol interactions.
 
