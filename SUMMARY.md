@@ -22,6 +22,10 @@
 * [Run a Meteora LP Agent - No Coding Skills Required](guides/run-a-meteora-lp-agent-no-coding-skills-required.md)
 * [Quickstart Guide: Set Up Your edwin Agent with ElizaOS](guides/quickstart-guide-set-up-your-edwin-agent-with-elizaos.md)
 
+***
+
+* [Plugin Integration Guide](plugin-integration-guide.md)
+
 ## Community
 
 * [Introduction](community/community-introduction.md)
