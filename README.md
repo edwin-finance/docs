@@ -23,7 +23,7 @@ The world of finance is experiencing two parallel revolutions. AI frameworks lik
 
 edwin enables AI agents built on top of AI frameworks to interact with DeFi protocols seamlessly. By providing a universal interface and handling blockchain operations securely, **edwin serves as the infrastructure layer that bridges the gap between AI and DeFi, unlocking the potential of autonomous financial agents - DeFAI.**
 
-<figure><img src=".gitbook/assets/Edwin Diagram (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Presentation 2 transparent.png" alt=""><figcaption></figcaption></figure>
 
 ### Architecture
 

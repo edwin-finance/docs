@@ -20,7 +20,7 @@ Our tokenomics are divided in the following manner:
 
 <figure><img src="../.gitbook/assets/Untitled design-6.png" alt="" width="563"><figcaption></figcaption></figure>
 
-We have locked 2% of the total supply for future developments - [PinkSale token lock](https://www.pinksale.finance/solana/pinklock/record/FFJ7ZEn6nerudgG5SiqjfmEdrbF47gxJSPFGD8bTXT3y)
+We have locked 2% of the total supply for protocol integrations and feature development - [PinkSale token lock](https://www.pinksale.finance/solana/pinklock/record/FFJ7ZEn6nerudgG5SiqjfmEdrbF47gxJSPFGD8bTXT3y)
 
 ### Who is eligible for the airdrop?
 
