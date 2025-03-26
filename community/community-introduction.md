@@ -6,11 +6,11 @@ icon: people
 
 ## Our Vision
 
-Edwin is on a mission to democratize DeFAI (Decentralized Finance AI) by building the essential infrastructure that bridges artificial intelligence with decentralized finance. We envision a future where autonomous AI agents can seamlessly interact with DeFi protocols, creating a new paradigm of intelligent, efficient, and accessible financial services.
+edwin is on a mission to democratize DeFAI (Decentralized Finance AI) by building the essential infrastructure that bridges artificial intelligence with decentralized finance. We envision a future where autonomous AI agents can seamlessly interact with DeFi protocols, creating a new paradigm of intelligent, efficient, and accessible financial services.
 
-## Why Edwin Matters
+## Why edwin Matters
 
-The DeFi landscape is complex and fragmented, with each protocol speaking its own language. Edwin serves as the universal translator, enabling AI agents to communicate effortlessly with any DeFi protocol through a standardized interface. This breakthrough enables:
+The DeFi landscape is complex and fragmented, with each protocol speaking its own language. edwin serves as the universal translator, enabling AI agents to communicate effortlessly with any DeFi protocol through a standardized interface. This breakthrough enables:
 
 * **Autonomous Financial Agents**: AI-powered systems that can execute sophisticated DeFi strategies
 * **Simplified Integration**: One interface to connect with multiple protocols and chains
@@ -19,7 +19,7 @@ The DeFi landscape is complex and fragmented, with each protocol speaking its ow
 
 ## Community-Driven Development
 
-Edwin is built by the community, for the community. We believe that the future of DeFAI will be shaped by:
+edwin is built by the community, for the community. We believe that the future of DeFAI will be shaped by:
 
 * **Open Source Collaboration**: Everyone can contribute to building the foundation
 * **Collective Innovation**: Community members bringing unique perspectives and ideas
@@ -28,7 +28,7 @@ Edwin is built by the community, for the community. We believe that the future o
 
 ## Join the Revolution
 
-Whether you're a developer, researcher, or DeFi enthusiast, there's a place for you in the Edwin community:
+Whether you're a developer, researcher, or DeFi enthusiast, there's a place for you in the edwin community:
 
 ### For Developers
 
@@ -62,9 +62,9 @@ Join our vibrant community:
 
 ## Token Economics
 
-Active community members can participate in Edwin's growth through our token economics model:
+Active community members can participate in edwin's growth through our token economics model:
 
-* **DeFAI Agent Developers**: Build and deploy agents using Edwin
+* **DeFAI Agent Developers**: Build and deploy agents using edwin
 * **Open Source Contributors**: Help improve the protocol
 * **Community Contributors**: Create value through education and support
 
@@ -77,6 +77,6 @@ Ready to join the DeFAI revolution?
 1. Read our [quickstart guide](../getting-started/quickstart.md)
 2. Join our [Discord](https://discord.gg/QNA55N3KtF)
 3. Explore [contribution opportunities](contributing-guidelines.md)
-4. Start building with Edwin
+4. Start building with edwin
 
 Together, we're creating the foundation for a more intelligent and accessible DeFi ecosystem. Join us in shaping the future of autonomous finance!

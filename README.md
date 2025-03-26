@@ -13,21 +13,21 @@ layout:
     visible: true
 ---
 
-# Edwin - The DeFAI Layer
+# edwin - The DeFAI Layer
 
 ## The Missing Bridge in DeFAI
 
 The world of finance is experiencing two parallel revolutions. AI frameworks like [LangChain](https://github.com/langchain-ai/langchain), [Eliza](https://github.com/elizaos/eliza), and [G.A.M.E](https://github.com/game-by-virtuals/game-python/tree/main) have transformed software development, creating autonomous agents that reason and execute complex tasks. Simultaneously, DeFi protocols like [Aave](https://aave.com/), [Uniswap](https://uniswap.org/), and [Morpho](https://morpho.xyz/) have built an open, programmable financial system managing billions in assets. Yet a critical gap exists - AI frameworks excel at decision-making but lack native DeFi capabilities, while DeFi protocols remain isolated from AI systems. Each protocol speaks its own language, uses unique interfaces, and requires specialized knowledge to integrate, creating a barrier between these two revolutionary technologies.
 
-#### What is Edwin?
+#### What is edwin?
 
-Edwin enables AI agents built on top of AI frameworks to interact with DeFi protocols seamlessly. By providing a universal interface and handling blockchain operations securely, **Edwin serves as the infrastructure layer that bridges the gap between AI and DeFi, unlocking the potential of autonomous financial agents - DeFAI.**
+edwin enables AI agents built on top of AI frameworks to interact with DeFi protocols seamlessly. By providing a universal interface and handling blockchain operations securely, **edwin serves as the infrastructure layer that bridges the gap between AI and DeFi, unlocking the potential of autonomous financial agents - DeFAI.**
 
 <figure><img src=".gitbook/assets/Edwin Diagram (11).png" alt=""><figcaption></figcaption></figure>
 
 ### Architecture
 
-Edwin consists of several core components that work together to enable DeFAI agents:
+edwin consists of several core components that work together to enable DeFAI agents:
 
 #### Core Components
 
@@ -80,7 +80,7 @@ Data Providers:
 
 ### Use Cases
 
-Edwin enables the creation of sophisticated DeFAI agents. Here are just a few examples of what you can build:
+edwin enables the creation of sophisticated DeFAI agents. Here are just a few examples of what you can build:
 
 * **Yield Optimization**: Automate staking and lending strategies across protocols
 * **Liquidity Management**: Deploy and manage pool positions
@@ -102,7 +102,7 @@ The possibilities are endless - as DeFAI evolves, new use cases emerge daily.
 
 ### Contributing
 
-Edwin is an open-source project welcoming contributions from the community:
+edwin is an open-source project welcoming contributions from the community:
 
 * Bug reports
 * Feature requests

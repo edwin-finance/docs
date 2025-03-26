@@ -12,7 +12,7 @@ This diversity, while fostering innovation, creates significant complexity. Each
 
 ## Universal DeFAI Language
 
-Edwin introduces a universal language for DeFAI operations, transforming complex protocol-specific interactions into simple, standardized commands. This abstraction layer acts as a universal translator, allowing AI agents to speak one language while interacting with any supported DeFi protocol.
+edwin introduces a universal language for DeFAI operations, transforming complex protocol-specific interactions into simple, standardized commands. This abstraction layer acts as a universal translator, allowing AI agents to speak one language while interacting with any supported DeFi protocol.
 
 ### Example: Supply Command
 
@@ -30,7 +30,7 @@ In this example, the same simple command structure works seamlessly across diffe
 ## Protocol Categories Made Simple
 
 ### Lending & Borrowing
-Edwin standardizes core lending operations across protocols:
+edwin standardizes core lending operations across protocols:
 - Supply assets
 - Borrow against collateral
 - Repay loans
@@ -54,7 +54,7 @@ Standardized operations for yield generation:
 For a detailed understanding of the action system, refer to the [Action System](action-system.md) documentation.
 ## Multichain by Design
 
-Protocol abstraction in Edwin extends across multiple blockchain networks. The same commands work consistently across different chains, abstracting away the complexity of:
+Protocol abstraction in edwin extends across multiple blockchain networks. The same commands work consistently across different chains, abstracting away the complexity of:
 - Chain-specific transaction formats
 - Different consensus mechanisms
 - Varying gas models
@@ -82,7 +82,7 @@ await edwin.actions.supply.execute({
 
 ## Security Through Standardization
 
-Protocol abstraction enhances security through standardization. Edwin's protocol whitelisting approach ensures that:
+Protocol abstraction enhances security through standardization. edwin's protocol whitelisting approach ensures that:
 
 - Only vetted and audited protocols can be integrated
 - Operations follow predefined safety boundaries

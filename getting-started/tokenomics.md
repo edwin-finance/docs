@@ -16,7 +16,7 @@ Our tokenomics are divided in the following manner:
 
 #### DeFAI Agent Developers (2%):
 
-* Must have built an agent that uses Edwin's SDK
+* Must have built an agent that uses edwin's SDK
 * The agent should demonstrate real DeFi strategies (not just test transactions)
 * Extra points for:
   * Having a consistent transaction history
@@ -25,7 +25,7 @@ Our tokenomics are divided in the following manner:
 
 #### Open Source Contributors (1%):
 
-* Meaningful contributions to Edwin's codebase
+* Meaningful contributions to edwin's codebase
 * Focus on:
   * New protocol integrations
   * Core functionality enhancements

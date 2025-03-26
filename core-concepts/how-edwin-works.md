@@ -2,9 +2,9 @@
 icon: 🦉
 ---
 
-# 🦉 How Edwin Works
+# 🦉 How edwin Works
 
-Edwin is a TypeScript library that serves as the bridge between AI agents and DeFi protocols. It provides a unified, secure interface for AI agents to interact with various DeFi protocols while abstracting away the complexity of blockchain operations and protocol-specific implementations.
+edwin is a TypeScript library that serves as the bridge between AI agents and DeFi protocols. It provides a unified, secure interface for AI agents to interact with various DeFi protocols while abstracting away the complexity of blockchain operations and protocol-specific implementations.
 
 ## System Architecture
 
@@ -18,11 +18,11 @@ graph TB
 
     subgraph "AI Layer"
         A[AI Agent]
-        P[Edwin Plugin]
+        P[edwin Plugin]
         A --> P
     end
     
-    subgraph "Edwin - DeFAI Layer"
+    subgraph "edwin - DeFAI Layer"
         B[Framework Adapter]
         C[Protocol Abstraction Layer]
         
@@ -59,7 +59,7 @@ graph TB
 
 ### Protocol Abstraction Layer
 
-The heart of Edwin is its Protocol Abstraction Layer, which provides a standardized interface for interacting with different types of DeFi protocols:
+The heart of edwin is its Protocol Abstraction Layer, which provides a standardized interface for interacting with different types of DeFi protocols:
 
 * **Lending Protocols**: Standardized interfaces for lending and borrowing operations
 * **DEX Protocols**: Unified interfaces for liquidity provision and trading
@@ -67,7 +67,7 @@ The heart of Edwin is its Protocol Abstraction Layer, which provides a standardi
 
 ### AI Framework Adapters
 
-Edwin's framework adapters enable seamless integration with AI frameworks:
+edwin's framework adapters enable seamless integration with AI frameworks:
 
 * Standardized command interface
 * State and context management
@@ -76,7 +76,7 @@ Edwin's framework adapters enable seamless integration with AI frameworks:
 
 ### Security Layer
 
-Edwin incorporates multiple security measures to ensure safe DeFi operations:
+edwin incorporates multiple security measures to ensure safe DeFi operations:
 
 1. **Transaction Security**
    * Transaction validation and signing
@@ -94,7 +94,7 @@ Edwin incorporates multiple security measures to ensure safe DeFi operations:
 ### 1. Command Initiation
 
 * AI agent generates a DeFi operation command
-* Framework adapter normalizes the command for Edwin
+* Framework adapter normalizes the command for edwin
 
 ### 2. Protocol Abstraction
 
@@ -118,7 +118,7 @@ Edwin incorporates multiple security measures to ensure safe DeFi operations:
 
 ### For AI Frameworks
 
-Edwin provides a clean adapter interface that:
+edwin provides a clean adapter interface that:
 
 * Accepts standardized commands
 * Handles response formatting
@@ -127,14 +127,14 @@ Edwin provides a clean adapter interface that:
 
 ### For DeFi Protocols
 
-Protocols can integrate with Edwin through:
+Protocols can integrate with edwin through:
 
 * Implementation of protocol type interfaces
 * SDK integration
 
 ## Technical Implementation
 
-Edwin is an open-source TypeScript library that enables:
+edwin is an open-source TypeScript library that enables:
 
 * Extensibility to all protocols
 * Easy integration with existing frameworks

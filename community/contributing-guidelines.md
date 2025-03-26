@@ -4,11 +4,11 @@ icon: list-radio
 
 # Contributing Guidelines
 
-Welcome to Edwin's contributing guide! We're excited to have you join our community of contributors helping to build the future of DeFAI.
+Welcome to edwin's contributing guide! We're excited to have you join our community of contributors helping to build the future of DeFAI.
 
 ## Ways to Contribute
 
-There are many ways you can contribute to Edwin:
+There are many ways you can contribute to edwin:
 
 1. **Code Contributions**
    * Protocol integrations
@@ -29,7 +29,7 @@ There are many ways you can contribute to Edwin:
 
 ## Getting Started
 
-1. Fork the [Edwin repository](https://github.com/edwin-finance/edwin)
+1. Fork the [edwin repository](https://github.com/edwin-finance/edwin)
 2. Clone your fork locally
 3. Create a new branch for your contribution
 4. Make your changes
@@ -74,7 +74,7 @@ There are many ways you can contribute to Edwin:
 
 ## Airdrop Eligibility
 
-Contributors may be eligible for the Edwin token airdrop. Qualifying contributions include:
+Contributors may be eligible for the edwin token airdrop. Qualifying contributions include:
 
 * Meaningful code contributions
 * Protocol integrations
@@ -107,4 +107,4 @@ If you need assistance:
 * Never commit sensitive credentials
 * Review the [security model](../core-concepts/security-model.md)
 
-Thank you for contributing to Edwin! Together, we're building the foundation for autonomous DeFi agents.
+Thank you for contributing to edwin! Together, we're building the foundation for autonomous DeFi agents.
