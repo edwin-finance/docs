@@ -98,43 +98,4 @@ The edwin Protocol enables secure communication between the client and server:
   * Encryption at rest
   * Encryption in transit
   * Access control
-  * Data retention
-
-## Scalability
-
-### Horizontal Scaling
-* **Multiple MCP Servers**
-  * Load distribution
-  * Geographic distribution
-  * Protocol-specific scaling
-  * Transaction execution scaling
-
-### Vertical Scaling
-* **Resource Optimization**
-  * Performance tuning
-  * Cache management
-  * Database optimization
-  * Transaction processing optimization
-
-## Monitoring and Observability
-
-### Metrics
-* **Transaction Metrics**
-  * Construction time
-  * Execution time
-  * Success rate
-  * Error rate
-
-### Logging
-* **Transaction Logs**
-  * Construction logs
-  * Execution logs
-  * Error logs
-  * Performance logs
-
-### Alerts
-* **Transaction Alerts**
-  * Construction failures
-  * Execution failures
-  * Performance issues
-  * Security alerts 
+  * Data retention 
