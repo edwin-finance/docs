@@ -17,6 +17,15 @@
 * [Security Model](core-concepts/security-model.md)
 * [Action System](core-concepts/action-system.md)
 
+## ☁️ Edwin Cloud
+
+* [Overview](edwin-cloud/README.md)
+* [Architecture](edwin-cloud/architecture.md)
+* [Transaction Flow](edwin-cloud/transaction-flow.md)
+* [Pricing](edwin-cloud/pricing.md)
+* [Getting Started](edwin-cloud/getting-started.md)
+* [Platform Integration](edwin-cloud/platform-integration.md)
+
 ## Guides
 
 * [Run a Meteora LP Agent - No Coding Skills Required](guides/run-a-meteora-lp-agent-no-coding-skills-required.md)
