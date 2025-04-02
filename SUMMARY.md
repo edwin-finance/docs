@@ -17,7 +17,7 @@
 * [Security Model](core-concepts/security-model.md)
 * [Action System](core-concepts/action-system.md)
 
-## ☁️ Edwin Cloud
+## edwin Cloud
 
 * [Overview](edwin-cloud/README.md)
 * [Architecture](edwin-cloud/architecture.md)
