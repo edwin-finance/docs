@@ -4,10 +4,10 @@ icon: coin-front
 
 # Tokenomics
 
-EDWIN powers both the governance of edwin DAO and provides access to edwin cloud features.
+EDWIN powers the governance of edwin DAO and provides access to edwin cloud features.
 
 #### Governance
-Token holders shape the future of DeFAI integration through:
+Token holders shape the future of DeFAI integration through the following:
 * Voting on new DeFi protocol integrations
 * Directing AI feature development priorities
 * Steering platform research initiatives

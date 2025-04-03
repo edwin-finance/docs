@@ -2,7 +2,7 @@
 
 ## Overview
 
-edwin cloud handles the complete transaction lifecycle, from construction to execution, while maintaining client-side security. The agent only needs to provide the DeFi operation in text form and sign the transaction.
+edwin cloud handles the complete transaction lifecycle, from construction to execution, while maintaining client-side security. The agent must only provide the DeFi operation in text and sign the transaction.
 
 ## Flow Diagram
 

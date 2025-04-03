@@ -17,13 +17,12 @@
 * [Security Model](core-concepts/security-model.md)
 * [Action System](core-concepts/action-system.md)
 
-## edwin Cloud
+## edwin cloud
 
 * [Overview](edwin-cloud/README.md)
 * [Architecture](edwin-cloud/architecture.md)
 * [Transaction Flow](edwin-cloud/transaction-flow.md)
 * [Pricing](edwin-cloud/pricing.md)
-* [Getting Started](edwin-cloud/getting-started.md)
 * [Platform Integration](edwin-cloud/platform-integration.md)
 
 ## Guides
