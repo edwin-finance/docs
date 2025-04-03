@@ -10,7 +10,6 @@ edwin cloud is a managed service layer that simplifies DeFi protocol integration
 
 * [Architecture](architecture.md) - Understanding the MCP server network and protocol
 * [Transaction Flow](transaction-flow.md) - Detailed explanation of request and transaction processing
-* [Pricing](pricing.md) - Available tiers and token holder benefits
 * [Platform Integration](platform-integration.md) - For agent platform developers
 
 ## Overview
@@ -38,4 +37,4 @@ edwin cloud brings significant advantages to all participants in the DeFi ecosys
 
 For agent frameworks, edwin cloud offers a seamless integration path that reduces development time and maintenance overhead. The standardized interface and built-in security measures make adding DeFi capabilities to any framework easy, while the scalable architecture ensures reliable performance as user bases grow.
 
-EDWIN token holders enjoy exclusive benefits, including free access to the service with generous request limits, priority routing for faster transaction processing, and early access to new protocol integrations. They also receive significant discounts on paid tiers and participate in platform governance, helping shape the ecosystem's future.
+EDWIN token holders enjoy exclusive benefits, including priority routing for faster transaction processing, and early access to new protocol integrations. They also participate in platform governance, helping shape the ecosystem's future.

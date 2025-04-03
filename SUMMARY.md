@@ -22,7 +22,6 @@
 * [Overview](edwin-cloud/README.md)
 * [Architecture](edwin-cloud/architecture.md)
 * [Transaction Flow](edwin-cloud/transaction-flow.md)
-* [Pricing](edwin-cloud/pricing.md)
 * [Platform Integration](edwin-cloud/platform-integration.md)
 
 ## Guides
