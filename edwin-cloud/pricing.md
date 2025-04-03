@@ -6,7 +6,7 @@ edwin cloud offers flexible pricing tiers based on transaction volume and protoc
 
 ## Pricing Tiers
 
-### Free Tier
+### Personal Tier
 **Perfect for development and testing**
 
 * 100 transactions/month
