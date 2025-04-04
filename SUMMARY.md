@@ -31,3 +31,4 @@
 * [Introduction](community/community-introduction.md)
 * [Contributing Guidelines](community/contributing-guidelines.md)
 * [Support Channels](community/support-channels.md)
+* [Brand Kit](community/brand-kit.md)
