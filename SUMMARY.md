@@ -19,8 +19,9 @@
 
 ## Guides
 
-* [Run a Meteora LP Agent - No Coding Skills Required](guides/run-a-meteora-lp-agent-no-coding-skills-required.md)
+* [Quickstart Guide: Using the MCP Server](guides/quickstart-guide-using-the-mcp-server.md)
 * [Quickstart Guide: Set Up Your edwin Agent with ElizaOS](guides/quickstart-guide-set-up-your-edwin-agent-with-elizaos.md)
+* [Run a Meteora LP Agent - No Coding Skills Required](guides/run-a-meteora-lp-agent-no-coding-skills-required.md)
 
 ***
 
