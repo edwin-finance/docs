@@ -6,6 +6,8 @@ icon: cloud
 
 edwin cloud is a managed service layer that simplifies DeFi protocol integration even further. It provides a collection of MCP (Model Context Protocol) servers that handle transaction construction, execution, and user context understanding, making it easier for agent builders to integrate with DeFi protocols without the complexity of the entire edwin TypeScript library.
 
+<figure><img src=".gitbook/assets/edwin_cloud.png" alt=""><figcaption></figcaption></figure>
+
 ## Quick Links
 
 * [Architecture](architecture.md) - Understanding the MCP server network and protocol
