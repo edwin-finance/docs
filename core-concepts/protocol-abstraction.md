@@ -17,10 +17,10 @@ edwin introduces a universal language for DeFAI operations, transforming complex
 ### Example: Supply Command
 
 ```typescript
-await edwin.actions.supply.execute({
-    protocol: 'aave',
+// Execute supply operation
+await edwin.plugins.aave?.supply.execute({
     chain: 'base',
-    amount: '100',
+    amount: 100,
     asset: 'usdc'
 });
 ```
@@ -30,28 +30,29 @@ In this example, the same simple command structure works seamlessly across diffe
 ## Protocol Categories Made Simple
 
 ### Lending & Borrowing
-edwin standardizes core lending operations across protocols:
-- Supply assets
-- Borrow against collateral
-- Repay loans
+edwin standardizes core lending operations through plugins:
+- `supply`: Supply assets to Aave
+- `withdraw`: Withdraw from Aave
+- `borrow`: Borrow from Aave
 
 Whether you're interacting with established lending markets or innovative new platforms, the commands remain consistent and intuitive.
 
 ### Trading & Liquidity
 For decentralized exchanges and liquidity protocols:
-- Add liquidity
-- Remove liquidity
-- Swap tokens
+- `swap`: Swap tokens on Uniswap
+- `addLiquidity`: Add liquidity to Uniswap
+- `removeLiquidity`: Remove liquidity from Uniswap
 
 One set of commands works across various DEX designs and liquidity pool structures.
 
 ### Staking & Yield
 Standardized operations for yield generation:
-- Stake tokens
-- Claim rewards
-- Track yield
+- `stake`: Stake ETH on Lido
+- `unstake`: Unstake from Lido
+- `claimRewards`: Claim rewards from Lido
 
-For a detailed understanding of the action system, refer to the [Action System](action-system.md) documentation.
+For a detailed understanding of the tool system, refer to the [Action System](action-system.md) documentation.
+
 ## Multichain by Design
 
 Protocol abstraction in edwin extends across multiple blockchain networks. The same commands work consistently across different chains, abstracting away the complexity of:
@@ -64,18 +65,16 @@ Protocol abstraction in edwin extends across multiple blockchain networks. The s
 
 ```typescript
 // Supply USDC on Base
-await edwin.actions.supply.execute({
-    protocol: 'aave',
+await edwin.plugins.aave?.supply.execute({
     chain: 'base',
-    amount: '100',
+    amount: 100,
     asset: 'usdc'
 });
 
 // Supply USDC on Solana
-await edwin.actions.supply.execute({
-    protocol: 'solend',
+await edwin.plugins.lulo?.supply.execute({
     chain: 'solana',
-    amount: '100',
+    amount: 100,
     asset: 'usdc'
 });
 ```

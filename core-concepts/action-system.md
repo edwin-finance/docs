@@ -6,88 +6,76 @@ icon: square-terminal
 
 ## Overview
 
-Actions are the fundamental building blocks of DeFAI operations in edwin. They represent standardized operations that AI agents can execute across different protocols and chains. Each action is designed to be atomic, predictable, and composable, enabling AI agents to build complex DeFAI strategies.
+Tools are the fundamental building blocks of DeFAI operations in edwin. They represent standardized operations that AI agents can execute across different protocols and chains. Each tool is designed to be atomic, predictable, and composable, enabling AI agents to build complex DeFAI strategies.
 
-## Action Types
+## Tool Types
 
-edwin supports a comprehensive set of DeFAI actions:
+edwin supports a comprehensive set of DeFAI tools through various plugins:
 
-### Lending & Borrowing
-- Supply assets to lending markets
-- Withdraw supplied assets
-- Borrow against collateral
-- Repay borrowed positions
+### Lending & Borrowing (Aave)
+- `supply`: Supply assets to Aave protocol
+- `withdraw`: Withdraw supplied assets from Aave
 
-### Trading & Liquidity
-- Swap tokens
-- Add liquidity to pools
-- Remove liquidity
-- Manage LP positions
+### Trading & Liquidity (Uniswap)
+- `swap`: Swap tokens on Uniswap
+- `addLiquidity`: Add liquidity to Uniswap pools
+- `removeLiquidity`: Remove liquidity from Uniswap pools
 
-### Staking & Yield
-- Stake tokens
-- Unstake positions
-- Claim rewards
-- Reinvest yields
+### Staking & Yield (Lido)
+- `stake`: Stake ETH on Lido
+- `unstake`: Unstake stETH from Lido
 
-## Action Lifecycle
+## Tool Lifecycle
 
-Each action follows a simple execution pattern:
+Each tool follows a simple execution pattern:
 
 ```typescript
 // Supply action
-const supplyResult = await edwin.actions.supply.execute({
-    protocol: 'aave',
+const supplyResult = await edwin.plugins.aave?.supply.execute({
     chain: 'base',
-    amount: '40000',
+    amount: 40000,
     asset: 'usdc'
 });
 
 // Swap action with required parameters
-const swapResult = await edwin.actions.swap.execute({
-    protocol: 'uniswap',
+const swapResult = await edwin.plugins.uniswap?.swap.execute({
     chain: 'base',
-    contract: '0x...',  // Pool contract address
-    amount: '1000',
+    amount: 1000,
     tokenIn: 'usdc',
     tokenOut: 'eth',
-    slippage: 0.5,
-    asset: 'usdc'
+    slippage: 0.5
 });
 ```
 
-## Action Composition
+## Tool Composition
 
-Actions can be composed together to create sophisticated DeFAI strategies:
+Tools can be composed together to create sophisticated DeFAI strategies:
 
 ```typescript
 // Multi-step DeFAI operation
 async function optimizeYield() {
     // Supply collateral
-    await edwin.actions.supply.execute({
-        protocol: 'aave',
+    await edwin.plugins.aave?.supply.execute({
         chain: 'base',
-        amount: '40000',
+        amount: 40000,
         asset: 'usdc'
     });
 
     // Borrow against collateral
-    await edwin.actions.borrow.execute({
-        protocol: 'aave',
+    await edwin.plugins.aave?.borrow.execute({
         chain: 'base',
-        amount: '5',
+        amount: 5,
         asset: 'eth'
     });
 
     // Stake borrowed assets
-    await edwin.actions.stake.execute({
-        protocol: 'lido',
+    await edwin.plugins.lido?.stake.execute({
         chain: 'base',
-        amount: '5',
+        amount: 5,
         asset: 'eth'
     });
 }
 ```
 
-Through the action system, AI agents can create, execute, and compose DeFAI operations while maintaining predictability and safety across different protocols and chains.
+Through the tool system, AI agents can create, execute, and compose DeFAI operations while maintaining predictability and safety across different protocols and chains.
 
