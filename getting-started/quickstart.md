@@ -4,7 +4,7 @@ icon: bullseye-arrow
 
 # Quickstart
 
-## Using edwin Capabilities&#x20;
+## Using edwin Capabilities
 
 edwin comes with a modular DeFAI system that can be used either stand alone or as part of an integration into an agent framework.
 
@@ -24,19 +24,18 @@ import { Edwin, EdwinConfig } from 'edwin-sdk';
 // Configure Edwin wallets and providers
 const edwinConfig: EdwinConfig = {
     evmPrivateKey: process.env.PRIVATE_KEY,
-    solanaPrivateKey: process.env.SOLANA_PRIVATE_KEY,
-    actions: ['supply', 'withdraw', 'stake']
+    solanaPrivateKey: process.env.SOLANA_PRIVATE_KEY
 };
 
 // Initialize Edwin SDK
 const edwin = new Edwin(edwinConfig);
 
-// Supply tokens to a lending protocol
-await edwin.actions.supply.execute({
-    protocol: 'aave',
+// Use a specific tool from a plugin
+// Example: Using Aave supply tool
+const result = await edwin.plugins.aave?.supply.execute({
     chain: 'base',
-    amount: '100',
-    asset: 'usdc'
+    asset: 'usdc',
+    amount: 100
 });
 ```
 
@@ -46,5 +45,11 @@ Choose an AI Agent framework - we will use elizaOS in this example.
 
 1. Clone the Eliza repo from [https://github.com/elizaOS/eliza](https://github.com/elizaOS/eliza).
 2. Inside the `packages` directory, clone the edwin plugin for Eliza: [https://github.com/edwin-finance/eliza-plugin-edwin](https://github.com/edwin-finance/eliza-plugin-edwin)
-3. Configure your `.env`with required secrets, and configure your agent character settings under `characters`.&#x20;
+3. Configure your `.env` with required secrets:
+   - `PRIVATE_KEY`: Your EVM private key
+   - `SOLANA_PRIVATE_KEY`: Your Solana private key
+   - `COOKIE_API_KEY`: (Optional) For Cookie plugin
+   - `EORACLE_API_KEY`: (Optional) For EOracle plugin
+   - `NFT_CONTRACT_ADDRESS`: (Optional) For Story Protocol plugin
+   - `SPG_NFT_CONTRACT_ADDRESS`: (Optional) For Story Protocol plugin
 4. Run the agent and use DeFAI capabilities!
