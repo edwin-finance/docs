@@ -17,6 +17,13 @@
 * [Security Model](core-concepts/security-model.md)
 * [Action System](core-concepts/action-system.md)
 
+## edwin cloud
+
+* [Overview](edwin-cloud/README.md)
+* [Architecture](edwin-cloud/architecture.md)
+* [Transaction Flow](edwin-cloud/transaction-flow.md)
+* [Platform Integration](edwin-cloud/platform-integration.md)
+
 ## Guides
 
 * [Quickstart Guide: Using the MCP Server](guides/quickstart-guide-using-the-mcp-server.md)
