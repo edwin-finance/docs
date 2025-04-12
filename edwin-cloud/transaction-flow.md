@@ -1,3 +1,7 @@
+---
+icon: arrow-progress
+---
+
 # Transaction Flow
 
 ## Overview
@@ -29,6 +33,7 @@ sequenceDiagram
 ## Process Details
 
 ### 1. Operation Submission
+
 * Agent sends text-based DeFi operation
 * Operation includes:
   * Protocol identifier
@@ -37,6 +42,7 @@ sequenceDiagram
   * User context
 
 ### 2. Context Understanding
+
 * edwin cloud analyzes:
   * Protocol state
   * Market conditions
@@ -46,12 +52,14 @@ sequenceDiagram
 * Determines best execution strategy
 
 ### 3. Protocol Routing
+
 * edwin cloud identifies appropriate Protocol MCP
 * Routes request with context
 * Handles protocol-specific requirements
 * Manages protocol state
 
 ### 4. Transaction Construction
+
 * Protocol MCP constructs transaction
 * Includes:
   * Protocol-specific parameters
@@ -60,12 +68,14 @@ sequenceDiagram
   * Deadline settings
 
 ### 5. Transaction Signing
+
 * Transaction returned to agent
 * Agent signs locally
 * Signature verification
 * Multi-signature support
 
 ### 6. Transaction Execution
+
 * edwin cloud submits to DeFi protocol
 * Monitors confirmation
 * Handles failures
@@ -74,18 +84,21 @@ sequenceDiagram
 ## Security Measures
 
 ### Client-Side Security
+
 * Private keys never leave agent
 * Local signature generation
 * Secure key storage
 * Hardware wallet support
 
 ### Server-Side Security
+
 * Request validation
 * Parameter sanitization
 * Rate limiting
 * Protocol whitelisting
 
 ### Network Security
+
 * TLS encryption
 * Request signing
 * API key validation
@@ -94,12 +107,14 @@ sequenceDiagram
 ## Error Handling
 
 ### Transaction Failures
+
 * Automatic retry logic
 * Error classification
 * Recovery strategies
 * Status monitoring
 
 ### Network Issues
+
 * Connection retry
 * Timeout handling
 * Load balancing
@@ -108,12 +123,14 @@ sequenceDiagram
 ## Transaction Monitoring
 
 ### Status Tracking
+
 * Transaction state
 * Confirmation status
 * Gas usage
 * Block inclusion
 
 ### Error Tracking
+
 * Failure reasons
 * Retry attempts
 * Recovery actions
@@ -122,13 +139,15 @@ sequenceDiagram
 ## Transaction Analytics
 
 ### Performance Metrics
+
 * Success rate
 * Failure rate
 * Average time
 * Gas efficiency
 
 ### Error Analysis
+
 * Common failures
 * Recovery success
 * Pattern detection
-* Improvement areas 
+* Improvement areas

@@ -1,3 +1,7 @@
+---
+icon: excavator
+---
+
 # Architecture
 
 ## MCP Server Network
@@ -25,6 +29,7 @@ graph TB
 The edwin Protocol enables secure communication between the client and server:
 
 ### Client-Side Components
+
 * **Wallet Management**
   * Secure key storage
   * Key derivation
@@ -39,6 +44,7 @@ The edwin Protocol enables secure communication between the client and server:
   * Error handling
 
 ### Server-Side Components
+
 * **Transaction Construction**
   * Protocol-specific transaction building
   * Parameter optimization
@@ -63,18 +69,17 @@ The edwin Protocol enables secure communication between the client and server:
 ## Security Architecture
 
 ### Client-Side Security
+
 * **Private Key Protection**
   * Keys never leave the client
   * Local signature generation
   * Secure key storage
   * Hardware wallet support
-
 * **Request Security**
   * Request signing
   * Parameter validation
   * Rate limiting
   * Input sanitization
-
 * **Communication Security**
   * TLS encryption
   * Request signing
@@ -82,20 +87,19 @@ The edwin Protocol enables secure communication between the client and server:
   * Session management
 
 ### Server-Side Security
+
 * **Infrastructure Security**
   * Cloud security best practices
   * Network isolation
   * Access control
   * Monitoring and logging
-
 * **Application Security**
   * Input validation
   * Output sanitization
   * Error handling
   * Rate limiting
-
 * **Data Security**
   * Encryption at rest
   * Encryption in transit
   * Access control
-  * Data retention 
+  * Data retention
