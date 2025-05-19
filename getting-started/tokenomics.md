@@ -4,7 +4,18 @@ icon: coin-front
 
 # Tokenomics
 
-EDWIN powers the governance of edwin DAO and provides access to edwin cloud features.
+EDWIN powers the governance of edwin DAO, provides access to edwin cloud features, and is backed by revenue from all DeFi transactions processed through the platform.
+
+#### Revenue Model & Buybacks
+
+Edwin generates revenue by collecting a small fee on all DeFi transaction volume processed through its infrastructure:
+
+* A portion of all transaction fees is allocated to token buybacks
+* Buybacks occur automatically on a regular schedule
+* Purchased tokens are either burned or redistributed to stakers
+* This mechanism creates consistent buy pressure and rewards long-term holders
+
+This fee-to-buyback model aligns the protocol's growth with token value - as more users access DeFi through AI assistants, more revenue flows to support the $EDWIN token.
 
 #### Governance
 Token holders shape the future of DeFAI integration through the following:
