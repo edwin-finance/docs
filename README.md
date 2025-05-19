@@ -23,7 +23,7 @@ The world of finance is experiencing two parallel revolutions. AI assistants lik
 
 edwin connects your favorite AI assistants directly to DeFi protocols. By providing a secure bridge and handling blockchain operations invisibly, **edwin allows ChatGPT, Claude, Siri, and other AI interfaces to manage your investments, giving you early access to tomorrow's trading interface.**
 
-<figure><a href="https://www.youtube.com/watch?v=W5fUDW6hF6M"><img src="https://img.youtube.com/vi/W5fUDW6hF6M/0.jpg" alt="edwin demo video"><figcaption>Watch a 30-second demo of edwin in action</figcaption></a></figure>
+{% embed url="https://www.youtube.com/watch?v=W5fUDW6hF6M" %}
 
 ### Architecture
 
@@ -35,7 +35,7 @@ edwin consists of several core components that work together to enable AI assist
 * **Edwin Cloud**: Managed infrastructure for seamless AI-to-DeFi connections
 * **Security Layer**: Transaction verification, simulation, and policy enforcement
 
-<figure><img src=".gitbook/assets/Presentation 2 transparent.png" alt="Edwin Architecture"><figcaption>How edwin connects AI assistants to DeFi protocols</figcaption></figure>
+<figure><img src=".gitbook/assets/Presentation 2 transparent.png" alt="Edwin Architecture"><figcaption></figcaption></figure>
 
 #### Current Integrations
 
@@ -65,7 +65,9 @@ Data Providers:
 
 ### Getting Started
 
-<figure><a href="https://youtu.be/bWwZiahYJJA"><img src="https://img.youtube.com/vi/bWwZiahYJJA/0.jpg" alt="setup video"><figcaption>Watch our 2-minute setup guide</figcaption></a></figure>
+{% embed url="https://youtu.be/bWwZiahYJJA" %}
+1-minute setup guide
+{% endembed %}
 
 ### Key Features
 
@@ -116,6 +118,7 @@ The possibilities expand daily as AI assistants become more capable.
 ### Token Value
 
 The $EDWIN token derives value from:
+
 * Fee sharing from all transactions processed through Edwin Cloud
 * Revenue-driven buybacks that create sustained demand
 * Governance rights over MCP policy and protocol integrations
